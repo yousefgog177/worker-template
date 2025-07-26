@@ -2,9 +2,9 @@
   "name": "always-teamlog-template",
   "version": "0.0.1",
   "description": "Discord always template worker.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "axios": "^0.27.1",
