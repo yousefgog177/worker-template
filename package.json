@@ -2,12 +2,13 @@
   "name": "always-teamlog-template",
   "version": "0.0.1",
   "description": "Discord always template worker.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "axios": "^0.27.1",
+    "express": "*",
     "mongoose": "^8.5.2",
     "eris": "^0.17.1",
     "node-fetch": "^2.6.2",
